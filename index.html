@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">/M/</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-seccion">
+        <video autoplay muted loop class="video-fondo">
+            <source src="img/Gen-2 8s, HaloR.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+        <div class="presentacion">
+            <p class="bienvenida">Hola a Todos</p>
+            <h2>Soy<span> Emanuel Reyes</span></h2> 
+            <div class="content">
+                <h3 class="content__container">
+                  <ul class="content__container__list">
+                    <li class="content__container__list__item">{ Desarrollador Web }</li>
+                    <li class="content__container__list__item">{ FullStack } </li>
+                    <li class="content__container__list__item">{ Programador } </li>
+                    <li class="content__container__list__item">{ Freelancer } </li>
+                  </ul>
+                </h3>
+              </div>
+            <p class="descripcion">"Desarollo Ideas y Desplieago Soluciones"</p>
+            <a href="#trabajos">Portfolio</a>
+        </div>
+    </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+        <div class="contenedor-foto">
+            <div class="contenido-banner">
+                <div class="contenedor-img">
+                    <img src="img/hero.png" alt="">
+                </div>
+                <h1>Emanuel Reyes</h1>
+                <h2> Desarrollador Web FullStack  
+                <br>Mayor experiencia desarollo backend
+                </h2>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-skype"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-solid fa-rss"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="sobre">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Emanuel Reyes</span> </h2>
+            <h3>Desarrollador Fullstack Web</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur reprehenderit voluptatibus blanditiis nulla adipisci iste fuga expedita, ea exercitationem dicta, similique rem, atque soluta recusandae ipsam autem. Sapiente, quo ducimus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nam a beatae natus.</p>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </div>
+    </section>
+
+     <!-- SECCION CURRICULUM -->
+     <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Experiencia</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION DE SLIDER HORIZONTAL-->
+    <!-- Slider Backend -->
+    <div class="logos">
+        <div class="logos-slide">
+          <img src="./logos/3m.svg" />
+          <img src="./logos/barstool-store.svg" />
+          <img src="./logos/budweiser.svg" />
+          <img src="./logos/buzzfeed.svg" />
+          <img src="./logos/forbes.svg" />
+          <img src="./logos/macys.svg" />
+          <img src="./logos/menshealth.svg" />
+          <img src="./logos/mrbeast.svg" />
+        </div>
+      </div>
+    <!-- Slider fronted -->
+    <div class="logosb">
+        <div class="logosb-slide">
+          <img src="./logos/3m.svg" />
+          <img src="./logos/barstool-store.svg" />
+          <img src="./logos/budweiser.svg" />
+          <img src="./logos/buzzfeed.svg" />
+          <img src="./logos/forbes.svg" />
+          <img src="./logos/macys.svg" />
+          <img src="./logos/menshealth.svg" />
+          <img src="./logos/mrbeast.svg" />
+        </div>
+      </div>
+      <!-- Slider Tecnologias -->
+    
+       <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Drupa</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION STACK TECNOLOGIAS -->
+    <section id="stack" class="stack">
+        <div class="contenido-seccion">
+            <h2> STACK </h2>
+                <ul>
+                    <li>
+                        <div> 
+                            <img src="./logos/mrbeast.svg" alt="Icono de Java">
+                        </div>
+                        <span class="tooltip_java">Java</span>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./logos/budweiser.svg" alt="Icono de Springbot">
+                        </div>
+                        <span class="tooltip_spring">Springboot</span>
+                    </li>
+                    <li>
+                        <div> 
+                            <img src="./logos/mrbeast.svg" alt="Icono de Mysql">
+                        </div>
+                        <span class="tooltip_mysql">My SQL</span>
+                    </li>
+                </ul>
+        </div>
+    </section>
+
+    
+      <!-- SECCION CONTADOR NUMEROS -->
+      <section id="numeros" class="numeros">
+        <div class="contenido">
+            <div class="fila">
+                <div class="col">
+                    <span class="mas">+</span>
+                    <div class="num" id="contProyectos">0</div>
+                    <div class="texto">
+                        <strong>PROYECTOS</strong> <br>TERMINADOS
+                    </div>
+                </div>
+                <div class="col">
+                    <span class="mas">+</span>
+                    <div class="num" id="contClientes">0</div>
+                    <div class="texto">
+                        <strong>CLIENTES</strong> <br>SATISFECHOS
+                    </div>
+                </div>
+                <div class="col">
+                    <span class="mas">+</span>
+                    <div class="num" id="contCursos">0</div>
+                    <div class="texto">
+                        CURSOS <br> <strong>EN LINEA</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- SECCIÓN TRABAJOS -->
+     <section class="trabajos" id="trabajos">
+        <h2>Portfolio</h2>
+
+        <nav>
+                <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos<span class="overlay"></span></a>
+                <a href="javascript:void(0)" class="" id="disenio" onclick="verCategoria('disenio')">Diseño<span class="overlay"></span></a>
+                <a href="javascript:void(0)" class="" id="programacion" onclick="verCategoria('programacion')">Programación<span class="overlay"></span></a>
+                <a href="javascript:void(0)" class="" id="animaciones" onclick="verCategoria('animaciones')">Animaciones<span class="overlay"></span></a>
+        </nav>
+
+        <div class="galeria">
+            <div class="item disenio">
+                <img src="img/trabajo1.png" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/trabajo2.png" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item animaciones">
+                <img src="img/trabajo3.png" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item disenio">
+                <img src="img/trabajo4.png" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item animaciones">
+                <img src="img/trabajo5.png" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/trabajo6.png" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item disenio">
+                <img src="img/trabajo7.png" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/trabajo8.png" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/trabajo9.png" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION DE CONOCEME MAS-->
+    <section id="conocemas" class="conocemas">
+        <div class="contenido-seccion">
+        <h2 class="title">Conoceme mas</h2>
+    
+        <div class="faq">
+          <div class="question">
+          <h3> What is json</h3>
+          <svg width="15" height="10" viewBox="0 0 42 45">
+            <path 
+            d="M3 3L21 21L39 3" 
+            stroke="White" 
+            stroke-width="7" 
+            stroke-linecap="round">
+          </svg>
+        </div>
+        <div class="answer">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea voluptatum commodi ipsa labore ullam recusandae, sint omnis perspiciatis! Harum beatae voluptatum unde voluptates dicta nulla praesentium obcaecati illo perspiciatis eligendi.
+          </p>
+        </div>
+      </div>
+    
+      <div class="faq">
+        <div class="question">
+        <h3> What is css</h3>
+        <svg width="15" height="10" viewBox="0 0 42 45">
+          <path 
+          d="M3 3L21 21L39 3" 
+          stroke="White" 
+          stroke-width="7" 
+          stroke-linecap="round">
+        </svg>
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea voluptatum commodi ipsa labore ullam recusandae, sint omnis perspiciatis! Harum beatae voluptatum unde voluptates dicta nulla praesentium obcaecati illo perspiciatis eligendi.
+        </p>
+      </div>
+    </div>
+    
+    <div class="faq">
+      <div class="question">
+      <h3> What is Html</h3>
+      <svg width="15" height="10" viewBox="0 0 42 45">
+        <path 
+        d="M3 3L21 21L39 3" 
+        stroke="White" 
+        stroke-width="7" 
+        stroke-linecap="round">
+      </svg>
+    </div>
+    <div class="answer">
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea voluptatum commodi ipsa labore ullam recusandae, sint omnis perspiciatis! Harum beatae voluptatum unde voluptates dicta nulla praesentium obcaecati illo perspiciatis eligendi.
+      </p>
+    </div>
+    </div>
+      </section>
+
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Nicaragua 159, San Rafael Mza
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 2384 - 4343443 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: cw@example.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
